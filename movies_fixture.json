@@ -1,0 +1,172 @@
+[
+{
+  "model": "movies.brand",
+  "pk": 1,
+  "fields": {
+    "name": "BD Cine"
+  }
+},
+{
+  "model": "movies.brand",
+  "pk": 2,
+  "fields": {
+    "name": "Rising Sun Picture"
+  }
+},
+{
+  "model": "movies.brand",
+  "pk": 3,
+  "fields": {
+    "name": "Village RoadShow"
+  }
+},
+{
+  "model": "movies.brand",
+  "pk": 4,
+  "fields": {
+    "name": "Studio 100"
+  }
+},
+{
+  "model": "movies.brand",
+  "pk": 5,
+  "fields": {
+    "name": "Globo Filmes"
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 1,
+  "fields": {
+    "name": "Oppenheimer",
+    "slug": "oppenheimer",
+    "created_at": "2023-07-19",
+    "released_at": "2023-08-03",
+    "downloads": 1,
+    "likes": 3,
+    "dislikes": 1,
+    "brand": 1,
+    "poster": "openheimer.jpg",
+    "tags": [
+      6
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 2,
+  "fields": {
+    "name": "The Flash",
+    "slug": "the-flash",
+    "created_at": "2023-06-07",
+    "released_at": "2023-08-09",
+    "downloads": 0,
+    "likes": 0,
+    "dislikes": 0,
+    "brand": 3,
+    "poster": "theflash.jpg",
+    "tags": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 3,
+  "fields": {
+    "name": "Blue Beetle",
+    "slug": "blue-beetle",
+    "created_at": "2023-05-10",
+    "released_at": "2023-09-04",
+    "downloads": 0,
+    "likes": 0,
+    "dislikes": 0,
+    "brand": 4,
+    "poster": "bluebeetle.jpg",
+    "tags": [
+      1,
+      5
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 4,
+  "fields": {
+    "name": "The Last Voyage of the Demeter",
+    "slug": "the-last-voyage-of-the-demeter",
+    "created_at": "2023-08-01",
+    "released_at": "2023-08-24",
+    "downloads": 0,
+    "likes": 0,
+    "dislikes": 0,
+    "brand": 5,
+    "poster": "lastvoyage.jpg",
+    "tags": [
+      4
+    ]
+  }
+},
+{
+  "model": "movies.movie",
+  "pk": 5,
+  "fields": {
+    "name": "The Equalizer 3",
+    "slug": "the-equalizer-3",
+    "created_at": "2023-08-02",
+    "released_at": "2023-09-01",
+    "downloads": 0,
+    "likes": 0,
+    "dislikes": 0,
+    "brand": 2,
+    "poster": "equalizer.jpg",
+    "tags": [
+      1,
+      7
+    ]
+  }
+},
+{
+  "model": "movies.tag",
+  "pk": 1,
+  "fields": {
+    "name": "Action"
+  }
+},
+{
+  "model": "movies.tag",
+  "pk": 3,
+  "fields": {
+    "name": "Thriller"
+  }
+},
+{
+  "model": "movies.tag",
+  "pk": 4,
+  "fields": {
+    "name": "Horror"
+  }
+},
+{
+  "model": "movies.tag",
+  "pk": 5,
+  "fields": {
+    "name": "Science Fiction"
+  }
+},
+{
+  "model": "movies.tag",
+  "pk": 6,
+  "fields": {
+    "name": "Drama"
+  }
+},
+{
+  "model": "movies.tag",
+  "pk": 7,
+  "fields": {
+    "name": "Crime"
+  }
+}
+]
